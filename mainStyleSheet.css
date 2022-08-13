@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-size: 28px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "brevia", sans-serif;
 }
 
 html{
@@ -61,30 +61,11 @@ html{
     margin: auto;
 }
 
-.nav-input{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-    font-size: 30px;
-    border-radius: 10pt 10pt 10pt 10pt;
-}
-
 .btnLogin{
     float: right;
     font-size: 20px;
     width: 100px;
     margin-right: 40px;
-}
-
-.nav-input{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    font-size: 30px;
-    border-radius: 10pt 10pt 10pt 10pt;
 }
 
 .main-input{
@@ -118,38 +99,3 @@ html{
 
 #title{
 }
-
-.nav-title{
-    display: inline-block;
-    float: left;
-    margin-left: 20px;
-}
-
-.filter-selection{
-    background: #cccccc;
-}
-
-.filter-title{
-    display: inline-block;
-    float: left;
-    margin-left: 20px;
-}
-
-.filter-form{
-    display: inline-block;
-    margin: 20px;
-}
-
-.search-product{
-    background: #555555;
-    width: 200px;
-    height: 300px;
-    display: inline-block;
-    text-align: center;
-    margin: auto;
-}
-
-.content-container {
-
-}
-

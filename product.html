@@ -6,15 +6,21 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="productStyleSheet.css">
+    <link rel="stylesheet" href="https://use.typekit.net/knq5ytw.css">
     <link rel="stylesheet" href="mainStyleSheet.css">
     <title>Product</title>
 </head>
 
 <body>
-
 <div class="header">
-    <h2>Bang 4 Buck</h2>
-    <p></p>
+    <input class="btnLogin" type="button" onclick="location.href = 'login.html';" value="Sign In">
+    <h2 class="header-title">
+        B4B
+    </h2>
+    <label>
+        <input class="header-input" type="text" placeholder="Search...">
+    </label>
 </div>
 
 <div class="navbar" id="navbar">
@@ -24,11 +30,29 @@
         <a href="javascript:void(0)" onclick="return confirm('Currently under developement')">Customize</a>
         <a href="javascript:void(0)" onclick="return confirm('Currently under developement')">My List</a>
         <a href="javascript:void(0)" onclick="return confirm('Currently under developement')">Forum</a>
+        <label hidden id="navInput">
+            <input style="margin-top: 10px; margin-left: 20px;"
+                   class="nav-input" type="text" placeholder="Search...">
+        </label>
     </div>
 </div>
 
 <div class="content">
+    <div id="product">
 
+    </div>
+    <div id="product-store">
+
+    </div>
+    <div id="product-priceGraph">
+
+    </div>
+    <div id="product-review">
+
+    </div>
+    <div id="other-products">
+
+    </div>
 </div>
 
 <script>
@@ -36,12 +60,15 @@
 
     const navbar = document.getElementById("navbar");
     const sticky = navbar.offsetTop;
+    const navInput = document.getElementById("navInput");
 
     function myFunction() {
         if (window.scrollY >= sticky) {
             navbar.classList.add("sticky")
+            navInput.hidden = false;
         } else {
             navbar.classList.remove("sticky");
+            navInput.hidden = true;
         }
     }
 </script>

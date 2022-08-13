@@ -19,14 +19,14 @@ html{
 }
 
 .header {
-    background-color: #87dec1;
+    background-color: #6ED2AE;
     padding: 30px;
     text-align: center;
 }
 
 .navbar {
     overflow: hidden;
-    background-color: #87dec1;
+    background-color: #6ED2AE;
     box-shadow: 1px 1px 10px 1px gray;
     font-weight: bold;
 }
@@ -93,6 +93,8 @@ html{
     font-family: "brevia", sans-serif;
     width: 50%;
     border-radius: 10pt 10pt 10pt 10pt;
+    border: none;
+    outline: none;
 }
 
 .main-card{
@@ -120,13 +122,11 @@ html{
     font-weight: bold;
 }
 
-#title {
-    margin-right: 0;
-    margin-top: auto;
-    margin-bottom: auto;
+.title {
+    margin: 0;
     font-size: 70px;
+    display: inline-block;
     text-align: center;
-    margin-left: 150px;
     color: #fc762b;
     font-style: italic;
     font-weight: bold;
@@ -134,5 +134,8 @@ html{
 }
 
 .logo{
-
+    display: inline-block;
+    width: 80px;
+    margin-top:0;
+    margin-left: 100px;
 }

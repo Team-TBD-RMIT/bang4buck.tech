@@ -7,6 +7,7 @@
     margin-bottom: 10px;
     font-size: 30px;
     border-radius: 10pt 10pt 10pt 10pt;
+    font-family: "brevia", sans-serif;
 }
 
 .nav-input{
@@ -14,6 +15,7 @@
     font-size: 20px;
     border-radius: 10pt 10pt 10pt 10pt;
     float: right;
+    font-family: "brevia", sans-serif;
 }
 
 .header-title{

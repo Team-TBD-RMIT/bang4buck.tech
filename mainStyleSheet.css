@@ -5,20 +5,30 @@ body {
     font-family: "brevia", sans-serif;
 }
 
+.wallpaper{
+    background: url('Images/wallpaper/wallpaper.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 html{
     margin: 0;
     padding: 0;
 }
 
 .header {
-    background-color: #f1f1f1;
+    background-color: #87dec1;
     padding: 30px;
     text-align: center;
 }
 
 .navbar {
     overflow: hidden;
-    background-color: #333;
+    background-color: #87dec1;
+    box-shadow: 1px 1px 10px 1px gray;
+    font-weight: bold;
 }
 
 .navbar a {
@@ -32,13 +42,13 @@ html{
 }
 
 .navbar a:hover {
-    background-color: lightgreen;
-    color: black;
+    background-color: #f2f2f2;
+    color: #fc762b;
 }
 
 .navbar a.active {
-    background-color: orange;
-    color: white;
+    background-color: #f2f2f2;
+    color: #fc762b;
 }
 
 .content {
@@ -64,15 +74,23 @@ html{
 .btnLogin{
     float: right;
     font-size: 20px;
-    width: 100px;
-    margin-right: 40px;
+    width: 150px;
+    height: 40px;
+    font-family: "brevia", sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    background: #fc762b;
+    color: #f2f2f2;
+    border: none;
+    border-radius: 5px;
 }
 
 .main-input{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    font-size: 30px;
+    font-size: 25px;
+    font-family: "brevia", sans-serif;
     width: 50%;
     border-radius: 10pt 10pt 10pt 10pt;
 }
@@ -80,7 +98,7 @@ html{
 .main-card{
     display: block;
     margin: auto;
-    background: orange;
+    background: #fc762b;
     width: 50%;
     height: 200px;
     position: relative;
@@ -94,8 +112,27 @@ html{
 
 #catchphrase{
     margin-top: 50px;
+    margin-bottom: 5px;
     text-align: center;
+    font-size: 40px;
+    color: #f2f2f2;
+    font-style: italic;
+    font-weight: bold;
 }
 
-#title{
+#title {
+    margin-right: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 70px;
+    text-align: center;
+    margin-left: 150px;
+    color: #fc762b;
+    font-style: italic;
+    font-weight: bold;
+    text-shadow: 2px 2px 3px rgba(255,255,255,0.5);
+}
+
+.logo{
+
 }

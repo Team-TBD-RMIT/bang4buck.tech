@@ -139,3 +139,15 @@ html{
     margin-top:0;
     margin-left: 100px;
 }
+
+.headerIcon{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    float: left;
+}
+
+#headerIcon{
+    width: 120px;
+    height: 120px;
+}

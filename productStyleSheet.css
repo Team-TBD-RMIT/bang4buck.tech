@@ -123,12 +123,20 @@
 }
 
 .content-container{
-    height: 125px;
     text-align: justify;
     -ms-text-justify: distribute-all-lines;
     text-justify: distribute-all-lines;
     /* just for demo */
     min-width: 612px;
+    height: 100%;
+    width: 90%;
+    margin: auto;
+    background-color: #F8F8F8;
+    padding: 50px;
+    margin-top: 30px;
+    box-shadow: 0 0 15px #cccccc;
+    color: black;
+    border-radius: 10px;
 }
 
 .product-photo{
@@ -201,3 +209,4 @@
     color: black;
     border-radius: 10px;
 }
+

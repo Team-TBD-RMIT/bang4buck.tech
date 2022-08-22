@@ -61,8 +61,7 @@
     height: 300px;
     display: inline-block;
     text-align: center;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: auto;
     margin-bottom: 20px;
     box-shadow: 1pt 1pt 5pt 1pt #fc762b;
 }
